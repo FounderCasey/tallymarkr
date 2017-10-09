@@ -29,7 +29,6 @@
   float: left;
   width: 30%;
   text-align: center;
-  border: solid;
   margin-left: 15%;
 }
 
@@ -37,11 +36,10 @@
   float: right;
   width: 30%;
   text-align: center;
-  border: solid;
   margin-right: 15%;
 }
 
-button {
+#plus, #minus {
   background: none;
   border: none;
   font-size: 150px;
@@ -49,11 +47,36 @@ button {
   padding: 30px 50px;
 }
 
-button:hover {
+.buttons:hover {
+  transition: 0.3s;
+  color: rgba(0,0,0,0.4);
+}
+
+#plus:hover, #minus:hover {
   transition: 0.3s;
   color: rgba(0,0,0,0.4);
 }
 
 button:active {
   color: aquamarine;
+}
+
+.reset-button {
+  background: none;
+  border: none;
+  font-size: 40px;
+  bottom: 10px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+}
+
+#reset {
+  background: none;
+  border: none;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 30px 50px;
+  color: rgba(0,0,0,0.2);
 }
