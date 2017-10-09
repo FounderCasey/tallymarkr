@@ -1,0 +1,59 @@
+* {
+  background-color: #e9f4f8;
+  font-family: sans-serif;
+}
+
+.logo-image {
+  margin: auto;
+  width: 50%;
+}
+
+.logo-image img {
+  width: 100%;
+}
+
+.information {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  font-size: 100px;
+  margin-top: -75px;
+  margin-bottom: -75px;
+}
+
+.buttons {
+  margin: auto;
+}
+
+.left {
+  float: left;
+  width: 30%;
+  text-align: center;
+  border: solid;
+  margin-left: 15%;
+}
+
+.right {
+  float: right;
+  width: 30%;
+  text-align: center;
+  border: solid;
+  margin-right: 15%;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 150px;
+  font-weight: 700;
+  padding: 30px 50px;
+}
+
+button:hover {
+  transition: 0.3s;
+  color: rgba(0,0,0,0.4);
+}
+
+button:active {
+  color: aquamarine;
+}
