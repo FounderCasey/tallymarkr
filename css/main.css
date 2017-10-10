@@ -57,8 +57,20 @@
   color: rgba(0,0,0,0.4);
 }
 
-button:active {
-  color: aquamarine;
+#plus:active {
+  color: #b1e5dd;
+}
+
+#minus:active {
+  color: #cd919d;
+}
+
+#reset:active {
+  color: #d0cbee;
+}
+
+button:focus {
+  outline: 0;
 }
 
 .reset-button {
@@ -79,4 +91,9 @@ button:active {
   font-weight: 700;
   padding: 30px 50px;
   color: rgba(0,0,0,0.2);
+}
+
+footer {
+  bottom: 15px;
+  position: absolute;
 }
